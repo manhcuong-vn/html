@@ -1,0 +1,7 @@
+name = "scada-base"
+compatibility_date = "2025-12-28"
+
+# Chỉ định thư mục chứa file index.html (dấu chấm '.' nghĩa là thư mục gốc)
+# Không sử dụng 'binding = "ASSETS"' ở đây vì bạn chỉ dùng Assets-only Worker
+[assets]
+directory = "."
