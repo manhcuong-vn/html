@@ -1,7 +1,7 @@
 {
-  "name": "web",
+  "name": "scada-base",
   "compatibility_date": "2025-12-25",
   "assets": {
-    "directory": "./public"
+    "directory": "."
   }
 }
