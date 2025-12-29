@@ -92,7 +92,7 @@
     <div class="card">
       <div class="label">Điện áp Output Hệ ECR</div>
       <div class="value">
-        <span id="Udc">--</span>
+        <span id="Vdc">--</span>
         <span class="unit">Vdc</span>
       </div>
     </div>
@@ -216,7 +216,7 @@
 
             // Cập nhật giao diện khớp với các ID trong HTML và Key trong JSON
             document.getElementById("pHS011").textContent = d.pHS011/10 ?? "--";
-            document.getElementById("Udc").textContent    = d.Udc/10 ?? "--"; // Nếu JSON không có Udc sẽ hiện --
+            document.getElementById("Vdc").textContent    = d.Vdc/10 ?? "--"; // Nếu JSON không có Udc sẽ hiện --
             document.getElementById("Idc").textContent    = d.Idc/10 ?? "--";
             document.getElementById("pHS131").textContent = d.pHS131/10 ?? "--"; // Map tạm pHS131 vào pHS031
             
@@ -248,3 +248,4 @@
 
 </body>
 </html>
+
